@@ -15,13 +15,17 @@
 		6DDB29B817F23375009DE493 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB29B717F23375009DE493 /* AppDelegate.m */; };
 		6DDB29BB17F23375009DE493 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29B917F23375009DE493 /* Main_iPhone.storyboard */; };
 		6DDB29BE17F23375009DE493 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29BC17F23375009DE493 /* Main_iPad.storyboard */; };
-		6DDB29C117F23375009DE493 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB29C017F23375009DE493 /* ViewController.m */; };
 		6DDB29C317F23375009DE493 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29C217F23375009DE493 /* Images.xcassets */; };
 		6DDB29CA17F23375009DE493 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDB29C917F23375009DE493 /* XCTest.framework */; };
 		6DDB29CB17F23375009DE493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDB29A717F23375009DE493 /* Foundation.framework */; };
 		6DDB29CC17F23375009DE493 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDB29AB17F23375009DE493 /* UIKit.framework */; };
 		6DDB29D417F23375009DE493 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29D217F23375009DE493 /* InfoPlist.strings */; };
 		6DDB29D617F23375009DE493 /* Anxiety_MixerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB29D517F23375009DE493 /* Anxiety_MixerTests.m */; };
+		6DDB29E217F23394009DE493 /* BrownNoiseVBR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29DF17F23394009DE493 /* BrownNoiseVBR.mp3 */; };
+		6DDB29E317F23394009DE493 /* PinkNoiseVBR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29E017F23394009DE493 /* PinkNoiseVBR.mp3 */; };
+		6DDB29E417F23394009DE493 /* WhiteNoiseVBR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29E117F23394009DE493 /* WhiteNoiseVBR.mp3 */; };
+		6DDB29E817F2350E009DE493 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDB29E717F2350D009DE493 /* AVFoundation.framework */; };
+		6DDB29EB17F23DB9009DE493 /* VolumesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB29EA17F23DB9009DE493 /* VolumesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +51,18 @@
 		6DDB29B717F23375009DE493 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6DDB29BA17F23375009DE493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		6DDB29BD17F23375009DE493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		6DDB29BF17F23375009DE493 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DDB29C017F23375009DE493 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6DDB29C217F23375009DE493 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6DDB29C817F23375009DE493 /* Anxiety MixerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anxiety MixerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDB29C917F23375009DE493 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6DDB29D117F23375009DE493 /* Anxiety MixerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anxiety MixerTests-Info.plist"; sourceTree = "<group>"; };
 		6DDB29D317F23375009DE493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DDB29D517F23375009DE493 /* Anxiety_MixerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anxiety_MixerTests.m; sourceTree = "<group>"; };
+		6DDB29DF17F23394009DE493 /* BrownNoiseVBR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BrownNoiseVBR.mp3; sourceTree = "<group>"; };
+		6DDB29E017F23394009DE493 /* PinkNoiseVBR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PinkNoiseVBR.mp3; sourceTree = "<group>"; };
+		6DDB29E117F23394009DE493 /* WhiteNoiseVBR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhiteNoiseVBR.mp3; sourceTree = "<group>"; };
+		6DDB29E717F2350D009DE493 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6DDB29E917F23DB9009DE493 /* VolumesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumesViewController.h; sourceTree = "<group>"; };
+		6DDB29EA17F23DB9009DE493 /* VolumesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDB29E817F2350E009DE493 /* AVFoundation.framework in Frameworks */,
 				6DDB29AA17F23375009DE493 /* CoreGraphics.framework in Frameworks */,
 				6DDB29AC17F23375009DE493 /* UIKit.framework in Frameworks */,
 				6DDB29A817F23375009DE493 /* Foundation.framework in Frameworks */,
@@ -103,6 +112,7 @@
 		6DDB29A617F23375009DE493 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6DDB29E717F2350D009DE493 /* AVFoundation.framework */,
 				6DDB29A717F23375009DE493 /* Foundation.framework */,
 				6DDB29A917F23375009DE493 /* CoreGraphics.framework */,
 				6DDB29AB17F23375009DE493 /* UIKit.framework */,
@@ -114,12 +124,10 @@
 		6DDB29AD17F23375009DE493 /* Anxiety Mixer */ = {
 			isa = PBXGroup;
 			children = (
-				6DDB29B617F23375009DE493 /* AppDelegate.h */,
-				6DDB29B717F23375009DE493 /* AppDelegate.m */,
+				6DDB29E617F233A4009DE493 /* Views */,
+				6DDB29E517F2339B009DE493 /* Sounds */,
 				6DDB29B917F23375009DE493 /* Main_iPhone.storyboard */,
 				6DDB29BC17F23375009DE493 /* Main_iPad.storyboard */,
-				6DDB29BF17F23375009DE493 /* ViewController.h */,
-				6DDB29C017F23375009DE493 /* ViewController.m */,
 				6DDB29C217F23375009DE493 /* Images.xcassets */,
 				6DDB29AE17F23375009DE493 /* Supporting Files */,
 			);
@@ -153,6 +161,27 @@
 				6DDB29D217F23375009DE493 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DDB29E517F2339B009DE493 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6DDB29DF17F23394009DE493 /* BrownNoiseVBR.mp3 */,
+				6DDB29E017F23394009DE493 /* PinkNoiseVBR.mp3 */,
+				6DDB29E117F23394009DE493 /* WhiteNoiseVBR.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		6DDB29E617F233A4009DE493 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DDB29B617F23375009DE493 /* AppDelegate.h */,
+				6DDB29B717F23375009DE493 /* AppDelegate.m */,
+				6DDB29E917F23DB9009DE493 /* VolumesViewController.h */,
+				6DDB29EA17F23DB9009DE493 /* VolumesViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDB29E417F23394009DE493 /* WhiteNoiseVBR.mp3 in Resources */,
+				6DDB29E217F23394009DE493 /* BrownNoiseVBR.mp3 in Resources */,
 				6DDB29BE17F23375009DE493 /* Main_iPad.storyboard in Resources */,
+				6DDB29E317F23394009DE493 /* PinkNoiseVBR.mp3 in Resources */,
 				6DDB29C317F23375009DE493 /* Images.xcassets in Resources */,
 				6DDB29BB17F23375009DE493 /* Main_iPhone.storyboard in Resources */,
 				6DDB29B217F23375009DE493 /* InfoPlist.strings in Resources */,
@@ -253,9 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DDB29C117F23375009DE493 /* ViewController.m in Sources */,
 				6DDB29B817F23375009DE493 /* AppDelegate.m in Sources */,
 				6DDB29B417F23375009DE493 /* main.m in Sources */,
+				6DDB29EB17F23DB9009DE493 /* VolumesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

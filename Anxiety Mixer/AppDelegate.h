@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) AVAudioPlayer
+*selectedNoisePlayer,
+*whiteNoisePlayer,
+*pinkNoisePlayer,
+*brownNoisePlayer;
 
 @end
