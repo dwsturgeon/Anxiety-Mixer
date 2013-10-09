@@ -29,9 +29,9 @@
 - (IBAction)noiseSliderValueChange:(id)sender
 {
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    appDelegate.whiteNoisePlayer.volume =[_noiseSlider value];
-    appDelegate.pinkNoisePlayer.volume =[_noiseSlider value];
-    appDelegate.brownNoisePlayer.volume =[_noiseSlider value];
+    appDelegate.whiteNoisePlayer.volume = _noiseSlider.value;
+    appDelegate.pinkNoisePlayer.volume = _noiseSlider.value;
+    appDelegate.brownNoisePlayer.volume = _noiseSlider.value;
     
 }
 - (IBAction)noiseSegmentControllerValueChange:(id)sender
@@ -113,7 +113,9 @@
     
     
     //set volume based on slider
-    appDelegate.selectedNoisePlayer.volume = _noiseSlider.value;
+    appDelegate.whiteNoisePlayer.volume = _noiseSlider.value;
+    appDelegate.pinkNoisePlayer.volume = _noiseSlider.value;
+    appDelegate.brownNoisePlayer.volume = _noiseSlider.value;
 }
 
 - (void)didReceiveMemoryWarning

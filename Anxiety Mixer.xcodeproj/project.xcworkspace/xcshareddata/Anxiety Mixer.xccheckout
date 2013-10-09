@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F3831F53-BCB6-4A7F-AEC5-D951F39E8D91</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Anxiety Mixer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49753054-8644-4ADF-99E3-3D6D236B77AD</key>
+		<string>https://github.com/dwsturgeon/Anxiety-Mixer.git</string>
+		<key>C991FF74-6631-42BB-BE56-374EBC3068D5</key>
+		<string>https://github.com/dwsturgeon/Anxiety-Mixer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Anxiety Mixer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49753054-8644-4ADF-99E3-3D6D236B77AD</key>
+		<string>../../../../github/Anxiety Mixer</string>
+		<key>C991FF74-6631-42BB-BE56-374EBC3068D5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dwsturgeon/Anxiety-Mixer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C991FF74-6631-42BB-BE56-374EBC3068D5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C991FF74-6631-42BB-BE56-374EBC3068D5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Anxiety Mixer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49753054-8644-4ADF-99E3-3D6D236B77AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Anxiety Mixer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
