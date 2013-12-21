@@ -13,10 +13,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) AVAudioPlayer
-*selectedNoisePlayer,
-*whiteNoisePlayer,
-*pinkNoisePlayer,
-*brownNoisePlayer;
+@property AVAudioPlayer
+*noisePlayer;
 
 @end

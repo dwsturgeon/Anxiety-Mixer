@@ -25,7 +25,8 @@
 		6DDB29E317F23394009DE493 /* PinkNoiseVBR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29E017F23394009DE493 /* PinkNoiseVBR.mp3 */; };
 		6DDB29E417F23394009DE493 /* WhiteNoiseVBR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DDB29E117F23394009DE493 /* WhiteNoiseVBR.mp3 */; };
 		6DDB29E817F2350E009DE493 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDB29E717F2350D009DE493 /* AVFoundation.framework */; };
-		6DDB29EB17F23DB9009DE493 /* VolumesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB29EA17F23DB9009DE493 /* VolumesViewController.m */; };
+		6DF64B1A1865084000EE582A /* MasterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF64B191865084000EE582A /* MasterTabBarController.m */; };
+		6DF64B20186508B200EE582A /* VolumesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF64B1F186508B200EE582A /* VolumesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +62,10 @@
 		6DDB29E017F23394009DE493 /* PinkNoiseVBR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PinkNoiseVBR.mp3; sourceTree = "<group>"; };
 		6DDB29E117F23394009DE493 /* WhiteNoiseVBR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhiteNoiseVBR.mp3; sourceTree = "<group>"; };
 		6DDB29E717F2350D009DE493 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		6DDB29E917F23DB9009DE493 /* VolumesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumesViewController.h; sourceTree = "<group>"; };
-		6DDB29EA17F23DB9009DE493 /* VolumesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumesViewController.m; sourceTree = "<group>"; };
+		6DF64B181865084000EE582A /* MasterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTabBarController.h; sourceTree = "<group>"; };
+		6DF64B191865084000EE582A /* MasterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTabBarController.m; sourceTree = "<group>"; };
+		6DF64B1E186508B200EE582A /* VolumesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VolumesViewController.h; path = ../VolumesViewController.h; sourceTree = "<group>"; };
+		6DF64B1F186508B200EE582A /* VolumesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VolumesViewController.m; path = ../VolumesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +181,10 @@
 			children = (
 				6DDB29B617F23375009DE493 /* AppDelegate.h */,
 				6DDB29B717F23375009DE493 /* AppDelegate.m */,
-				6DDB29E917F23DB9009DE493 /* VolumesViewController.h */,
-				6DDB29EA17F23DB9009DE493 /* VolumesViewController.m */,
+				6DF64B1E186508B200EE582A /* VolumesViewController.h */,
+				6DF64B1F186508B200EE582A /* VolumesViewController.m */,
+				6DF64B181865084000EE582A /* MasterTabBarController.h */,
+				6DF64B191865084000EE582A /* MasterTabBarController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -285,9 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF64B20186508B200EE582A /* VolumesViewController.m in Sources */,
+				6DF64B1A1865084000EE582A /* MasterTabBarController.m in Sources */,
 				6DDB29B817F23375009DE493 /* AppDelegate.m in Sources */,
 				6DDB29B417F23375009DE493 /* main.m in Sources */,
-				6DDB29EB17F23DB9009DE493 /* VolumesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +512,7 @@
 				6DDB29DB17F23375009DE493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DDB29DC17F23375009DE493 /* Build configuration list for PBXNativeTarget "Anxiety MixerTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +521,7 @@
 				6DDB29DE17F23375009DE493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

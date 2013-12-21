@@ -10,38 +10,12 @@
 
 @implementation AppDelegate
 
-/* -----------------------------------
-    Custom Functions
-   ----------------------------------- */
-
-- (void) initialize
-{
-    /* ------------------------------------------------------------------------
-        Create AVAudioPlayers for pink, white, brown noises
-       ------------------------------------------------------------------------ */
-    //noise URLs
-    NSURL *whiteNoiseURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/WhiteNoiseVBR.mp3", [[NSBundle mainBundle] resourcePath]]];
-    NSURL *pinkNoiseURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/PinkNoiseVBR.mp3", [[NSBundle mainBundle] resourcePath]]];
-    NSURL *brownNoiseURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/BrownNoiseVBR.mp3", [[NSBundle mainBundle] resourcePath]]];
-    NSError *error;
-    
-    //AVAudioPlayers for noise
-    _whiteNoisePlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:whiteNoiseURL error:&error];
-    _pinkNoisePlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:pinkNoiseURL error:&error];
-    _brownNoisePlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:brownNoiseURL error:&error];
-    
-    //set infinite loop
-    _whiteNoisePlayer.numberOfLoops = -1;
-    _pinkNoisePlayer.numberOfLoops = -1;
-    _brownNoisePlayer.numberOfLoops = -1;
-    
-}
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    [self initialize];
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    
     return YES;
 }
 							
